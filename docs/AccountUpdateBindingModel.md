@@ -1,0 +1,53 @@
+# FinacApi.AccountUpdateBindingModel
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**firstName** | **String** | First name of cardholder. | 
+**middleInitial** | **String** | Middle name of cardholder. | [optional] 
+**lastName** | **String** | Last name of cardholder. | 
+**address1** | **String** | Address line 1 of the cardholder | [optional] 
+**address2** | **String** | Address line 2 of the cardholder | [optional] 
+**address3** | **String** | Address line 3 of the cardholder | [optional] 
+**address4** | **String** | Address line 4 of the cardholder | [optional] 
+**city** | **String** | City of cardholder. | [optional] 
+**state** | **String** | State of cardholder. | [optional] 
+**zipCode** | **String** | Zip code of cardholder. | [optional] 
+**countryCode** | **String** | Country code of cardholder, in regulation with ISO 3166-1 alpha-2. | 
+**county** | **String** | County name of cardholder. | [optional] 
+**dateOfBirth** | **String** | Date of birth of cardholder, in \&quot;yyyy-MM-dd\&quot; format. | 
+**landline** | **String** | Landline number. Landline dial code can also be added by separating landline and dial code with a |. | [optional] 
+**securityQuestion** | **String** | Security question. | [optional] 
+**securityAnswer** | **String** | Security answer. | [optional] 
+**securityField3** | **String** |  | [optional] 
+**securityField4** | **String** |  | [optional] 
+**email** | **String** | Cardholder email address. | [optional] 
+**userDefined1** | **String** | Open entry field – Available for Client&#x27;s to pass end-user’s ID | [optional] 
+**userDefined2** | **String** | Product type (0, 1, 2). Set to 1 if KYC process has not been complete. Set to 2 if process is complete, or when linking a card. 1 &#x3D; SDD, 2 &#x3D; KYC\&quot; | [optional] 
+**userDefined3** | **String** | Always set to &#x27;SOLO&#x27; - relevant when creating a parent/child link between cards | [optional] 
+**userDefined4** | **String** | Open entry field | [optional] 
+**socialSecurityNumber** | **String** | Cardholder social security number. | [optional] 
+**companyName** | **String** | The name of Cardholder&#x27;s company of employment | [optional] 
+**cardStyle** | **String** | Identifies cards types on your program. Fee structures can vary between card styles. | [optional] 
+**embossName** | **String** | Name to be embossed on card. | [optional] 
+**expirationDate** | **String** | Expiration date of documents, in \&quot;yyyy-MM-dd\&quot; format. | [optional] 
+**isProducePlastic** | **Boolean** | Produce card. | [optional] 
+**deliveryType** | **String** | Determines the type of card created (VC &#x3D; Virtual - PC &#x3D; Physical) | [optional] 
+**secondaryAddress1** | **String** |  | [optional] 
+**secondaryAddress2** | **String** |  | [optional] 
+**secondaryAddress3** | **String** |  | [optional] 
+**secondaryAddress4** | **String** |  | [optional] 
+**secondaryCity** | **String** |  | [optional] 
+**secondaryZipCode** | **String** |  | [optional] 
+**secondaryState** | **String** |  | [optional] 
+**secondaryCounty** | **String** |  | [optional] 
+**documentType** | **String** | Document type must be empty if document details are not enabled. (if not applicable to your program) | [optional] 
+**documentNumber** | **String** | Document number must be empty if document details are not enabled. (if not applicable to your program) | [optional] 
+**documentExpiryDate** | **String** | Document number must be empty if document details are not enabled. (if not applicable to your program) \&quot;yyyy-MM-dd\&quot; format. | [optional] 
+**nationality** | **String** | Nationality of cardholder. | [optional] 
+**countryOfIssuance** | **String** | Country of issuance must be empty if document details are not enabled. (if not applicable to your program) In regulation with ISO 3166-1 alpha-2. | [optional] 
+**gender** | **String** | Gender of cardholder (M or m, F or f). | [optional] 
+**secondaryCountryCode** | **String** | ISO 1366-1 - A three character code appointed to each country | [optional] 
+**userDefined** | **{String: String}** | Open entry dictionary for adding custom cardholder data | [optional] 
+**mobileNo** | **String** | Cardholder mobile number. Mobile number dial code can also be added by separating mobile number and dial code with a |. | [optional] 
+**useDefaultSpendWallet** | **Boolean** | If a &#x27;ControlledSpend&#x27; wallet is present and no matching wallet is found during transaction processing, and if true, the &#x27;Spend&#x27; wallet will be used instead.    Can be used for Trace cards only. | [optional] 

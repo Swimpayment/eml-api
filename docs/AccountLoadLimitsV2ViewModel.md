@@ -1,0 +1,32 @@
+# FinacApi.AccountLoadLimitsV2ViewModel
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**bin** | **String** |  | [optional] 
+**dc** | **String** |  | [optional] 
+**cardType** | **String** |  | [optional] 
+**maxLoadPerDay** | **Number** |  | [optional] 
+**maxLoadTriesPerDay** | **Number** |  | [optional] 
+**maxLoadLimit** | **Number** |  | [optional] 
+**minLoadLimit** | **Number** |  | [optional] 
+**maxBalanceonCard** | **Number** |  | [optional] 
+**c2CMaxLoadLimit** | **Number** |  | [optional] 
+**c2CMinLoadLimit** | **Number** |  | [optional] 
+**c2CLoadTriesPerDay** | **Number** |  | [optional] 
+**monthlyLoadLimits** | **Number** |  | [optional] 
+**totalLoadTries** | **Number** |  | [optional] 
+**sddMonthlyLoadLimits** | **Number** |  | [optional] 
+**productTypeID** | **String** |  | [optional] 
+**yearlyLoadLimit** | **Number** |  | [optional] 
+**quarterlyLimit** | **Number** |  | [optional] 
+**maxMonthlyLoadCardLimit** | **Number** |  | [optional] 
+**maxYearlyLoadCardLimit** | **Number** |  | [optional] 
+**maxMonthlyLoadMobileLimit** | **Number** |  | [optional] 
+**maxYearlyLoadMobileLimit** | **Number** |  | [optional] 
+**maxMonthlyLoadEmailLimit** | **Number** |  | [optional] 
+**maxYearlyLoadEmailLimit** | **Number** |  | [optional] 
+**maxMonthlyLoadNameDOBLimit** | **Number** |  | [optional] 
+**maxYearlyLoadNameDOBLimit** | **Number** |  | [optional] 
+**maxMonthlyLoadNameLimit** | **Number** |  | [optional] 
+**maxYearlyLoadNameLimit** | **Number** |  | [optional] 
