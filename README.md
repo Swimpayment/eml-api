@@ -75,7 +75,7 @@ var defaultClient = FinacApi.ApiClient.instance;
 var api = new FinacApi.AccountApi()
 var apiVersion = "2.0"; // {String} 
 var authorization = "Bearer [jwttoken]"; // {String} Access token
-var fMessageId = "f90b4327-43df-4e3c-9ca7-8beed511fd58"; // {String} Unique identifier
+var fMessageId = "49ca030a-f33e-4774-8f3e-c33be4fcd575"; // {String} Unique identifier
 var fOrigin = "swagger"; // {String} Origin of request
 var opts = { 
   'body': new FinacApi.AccountIdV2BindingModel() // {AccountIdV2BindingModel} 
@@ -106,6 +106,7 @@ Class | Method | HTTP request | Description
 *FinacApi.AccountApi* | [**apiAccountFXTradePost**](docs/AccountApi.md#apiAccountFXTradePost) | **POST** /api/Account/FXTrade | FX Trade
 *FinacApi.AccountApi* | [**apiAccountIdAccountToAccountTradePost**](docs/AccountApi.md#apiAccountIdAccountToAccountTradePost) | **POST** /api/Account/{Id}/AccountToAccountTrade | Account To Account Trade
 *FinacApi.AccountApi* | [**apiAccountIdAddCurrencyPost**](docs/AccountApi.md#apiAccountIdAddCurrencyPost) | **POST** /api/Account/{Id}/AddCurrency | Add Currency
+*FinacApi.AccountApi* | [**apiAccountIdBalanceCreditPost**](docs/AccountApi.md#apiAccountIdBalanceCreditPost) | **POST** /api/Account/{Id}/Balance/Credit | Credit Cardholder
 *FinacApi.AccountApi* | [**apiAccountIdBalanceGet**](docs/AccountApi.md#apiAccountIdBalanceGet) | **GET** /api/Account/{Id}/Balance | Card Balance
 *FinacApi.AccountApi* | [**apiAccountIdCardNumberPost**](docs/AccountApi.md#apiAccountIdCardNumberPost) | **POST** /api/Account/{Id}/CardNumber | Request Card Number
 *FinacApi.AccountApi* | [**apiAccountIdCheckLoadGet**](docs/AccountApi.md#apiAccountIdCheckLoadGet) | **GET** /api/Account/{Id}/CheckLoad | Check load version 2
@@ -217,8 +218,11 @@ Class | Method | HTTP request | Description
 *FinacApi.ProgrammeApi* | [**apiProgrammeDistributorCodeAddCorporateCurrencyPost**](docs/ProgrammeApi.md#apiProgrammeDistributorCodeAddCorporateCurrencyPost) | **POST** /api/Programme/{DistributorCode}/AddCorporateCurrency | Add Corporate Currency
 *FinacApi.ProgrammeApi* | [**apiProgrammeGetSpendControlGroupsPost**](docs/ProgrammeApi.md#apiProgrammeGetSpendControlGroupsPost) | **POST** /api/Programme/GetSpendControlGroups | Get Spend Control Groups
 *FinacApi.ProgrammeApi* | [**apiProgrammeSpendControlGroupPost**](docs/ProgrammeApi.md#apiProgrammeSpendControlGroupPost) | **POST** /api/Programme/SpendControlGroup | Create Spend Control Group
+*FinacApi.RegistrationRuleApi* | [**apiRegistrationRuleCountPost**](docs/RegistrationRuleApi.md#apiRegistrationRuleCountPost) | **POST** /api/RegistrationRule/Count | Registered Details Count
 *FinacApi.RegistrationRuleApi* | [**apiRegistrationRuleGet**](docs/RegistrationRuleApi.md#apiRegistrationRuleGet) | **GET** /api/RegistrationRule | Get Registration Rules
 *FinacApi.RegistrationRuleApi* | [**apiRegistrationRulePost**](docs/RegistrationRuleApi.md#apiRegistrationRulePost) | **POST** /api/RegistrationRule | Add Registration Rule
+*FinacApi.RegistrationRuleApi* | [**apiRegistrationRuleRevertBlockDelete**](docs/RegistrationRuleApi.md#apiRegistrationRuleRevertBlockDelete) | **DELETE** /api/RegistrationRule/RevertBlock | Remove blacklist block
+*FinacApi.RegistrationRuleApi* | [**apiRegistrationRuleUserRegistrationRuleIdAuditGet**](docs/RegistrationRuleApi.md#apiRegistrationRuleUserRegistrationRuleIdAuditGet) | **GET** /api/RegistrationRule/{UserRegistrationRuleId}/Audit | Get Registration Rule Audit
 *FinacApi.RegistrationRuleApi* | [**apiRegistrationRuleUserRegistrationRuleIdDelete**](docs/RegistrationRuleApi.md#apiRegistrationRuleUserRegistrationRuleIdDelete) | **DELETE** /api/RegistrationRule/{UserRegistrationRuleId} | Delete Registration Rule
 *FinacApi.ThreeDSApi* | [**apiThreeDSIdGet**](docs/ThreeDSApi.md#apiThreeDSIdGet) | **GET** /api/ThreeDS/{Id} | Get enrollment details
 *FinacApi.ThreeDSApi* | [**apiThreeDSIdSecurityDetailsPatch**](docs/ThreeDSApi.md#apiThreeDSIdSecurityDetailsPatch) | **PATCH** /api/ThreeDS/{Id}/SecurityDetails | Update 3DS security details
@@ -386,11 +390,18 @@ Class | Method | HTTP request | Description
  - [FinacApi.DeleteAccountWalletBindingModel](docs/DeleteAccountWalletBindingModel.md)
  - [FinacApi.DeleteAccountWalletViewModel](docs/DeleteAccountWalletViewModel.md)
  - [FinacApi.DeleteAccountWalletViewModelValidResponsePackage](docs/DeleteAccountWalletViewModelValidResponsePackage.md)
+ - [FinacApi.DeleteBlacklistBlockBindingModel](docs/DeleteBlacklistBlockBindingModel.md)
+ - [FinacApi.DeleteBlacklistBlockViewModel](docs/DeleteBlacklistBlockViewModel.md)
+ - [FinacApi.DeleteBlacklistBlockViewModelValidResponsePackage](docs/DeleteBlacklistBlockViewModelValidResponsePackage.md)
  - [FinacApi.DeletePayeeBindingModel](docs/DeletePayeeBindingModel.md)
  - [FinacApi.DeletePayeeViewModel](docs/DeletePayeeViewModel.md)
  - [FinacApi.DeletePayeeViewModelValidResponsePackage](docs/DeletePayeeViewModelValidResponsePackage.md)
+ - [FinacApi.DeleteRegistrationRuleBindingModel](docs/DeleteRegistrationRuleBindingModel.md)
  - [FinacApi.DeleteRegistrationRuleViewModel](docs/DeleteRegistrationRuleViewModel.md)
  - [FinacApi.DeleteRegistrationRuleViewModelValidResponsePackage](docs/DeleteRegistrationRuleViewModelValidResponsePackage.md)
+ - [FinacApi.DepositBindingModelV2](docs/DepositBindingModelV2.md)
+ - [FinacApi.DepositViewModelV2](docs/DepositViewModelV2.md)
+ - [FinacApi.DepositViewModelV2ValidResponsePackage](docs/DepositViewModelV2ValidResponsePackage.md)
  - [FinacApi.Device](docs/Device.md)
  - [FinacApi.DirectDebitCancellationTransactionModelV2](docs/DirectDebitCancellationTransactionModelV2.md)
  - [FinacApi.DirectDebitCancellationViewModelV2](docs/DirectDebitCancellationViewModelV2.md)
@@ -460,6 +471,10 @@ Class | Method | HTTP request | Description
  - [FinacApi.GetPayeeBindingModel](docs/GetPayeeBindingModel.md)
  - [FinacApi.GetPayeeViewModel](docs/GetPayeeViewModel.md)
  - [FinacApi.GetPayeeViewModelValidResponsePackage](docs/GetPayeeViewModelValidResponsePackage.md)
+ - [FinacApi.GetRegistrationRuleAuditPagingViewModel](docs/GetRegistrationRuleAuditPagingViewModel.md)
+ - [FinacApi.GetRegistrationRuleAuditVM](docs/GetRegistrationRuleAuditVM.md)
+ - [FinacApi.GetRegistrationRuleAuditViewModel](docs/GetRegistrationRuleAuditViewModel.md)
+ - [FinacApi.GetRegistrationRuleAuditViewModelValidResponsePackage](docs/GetRegistrationRuleAuditViewModelValidResponsePackage.md)
  - [FinacApi.GetRegistrationRuleViewModel](docs/GetRegistrationRuleViewModel.md)
  - [FinacApi.GetRegistrationRulesPagingViewModel](docs/GetRegistrationRulesPagingViewModel.md)
  - [FinacApi.GetRegistrationRulesViewModel](docs/GetRegistrationRulesViewModel.md)
@@ -600,6 +615,9 @@ Class | Method | HTTP request | Description
  - [FinacApi.RegisterClientBindingModel](docs/RegisterClientBindingModel.md)
  - [FinacApi.RegisterViewModel](docs/RegisterViewModel.md)
  - [FinacApi.RegisterViewModelValidResponsePackage](docs/RegisterViewModelValidResponsePackage.md)
+ - [FinacApi.RegisteredDetailsCountBindingModel](docs/RegisteredDetailsCountBindingModel.md)
+ - [FinacApi.RegisteredDetailsCountViewModel](docs/RegisteredDetailsCountViewModel.md)
+ - [FinacApi.RegisteredDetailsCountViewModelValidResponsePackage](docs/RegisteredDetailsCountViewModelValidResponsePackage.md)
  - [FinacApi.ReissueBindingModel](docs/ReissueBindingModel.md)
  - [FinacApi.ReissueV2ViewModel](docs/ReissueV2ViewModel.md)
  - [FinacApi.ReissueV2ViewModelValidResponsePackage](docs/ReissueV2ViewModelValidResponsePackage.md)
