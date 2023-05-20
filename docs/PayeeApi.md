@@ -28,7 +28,7 @@ let apiInstance = new FinacApi.PayeeApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "b70dc12e-520a-4331-b678-6e5218def0bc"; // String | Unique identifier
+let fMessageId = "79f3da31-13cb-4efd-88d4-237936948ca5"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.ConfirmPayeeBindingModel() // ConfirmPayeeBindingModel | Request body, see details under the 'Model' tab
@@ -49,7 +49,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to b70dc12e-520a-4331-b678-6e5218def0bc]
+ **fMessageId** | **String**| Unique identifier | [default to 79f3da31-13cb-4efd-88d4-237936948ca5]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**ConfirmPayeeBindingModel**](ConfirmPayeeBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -84,7 +84,7 @@ let apiInstance = new FinacApi.PayeeApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "f766a5f2-e016-4098-a653-776540799768"; // String | Unique identifier
+let fMessageId = "cae29382-23af-4c72-9b86-ffbff41252fd"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.DeletePayeeBindingModel() // DeletePayeeBindingModel | Request body, see details under the 'Model' tab
@@ -105,7 +105,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to f766a5f2-e016-4098-a653-776540799768]
+ **fMessageId** | **String**| Unique identifier | [default to cae29382-23af-4c72-9b86-ffbff41252fd]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**DeletePayeeBindingModel**](DeletePayeeBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -140,7 +140,7 @@ let apiInstance = new FinacApi.PayeeApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "66d4b49b-b114-4988-95da-75b236e61c72"; // String | Unique identifier
+let fMessageId = "b7f0a751-c4a7-4c95-b111-7d9979481ff0"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.GetPayeeBindingModel() // GetPayeeBindingModel | Request body, see details under the 'Model' tab
@@ -161,7 +161,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 66d4b49b-b114-4988-95da-75b236e61c72]
+ **fMessageId** | **String**| Unique identifier | [default to b7f0a751-c4a7-4c95-b111-7d9979481ff0]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**GetPayeeBindingModel**](GetPayeeBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -196,7 +196,7 @@ let apiInstance = new FinacApi.PayeeApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "7e3cf3df-faba-4a0b-a936-05445a0183ec"; // String | Unique identifier
+let fMessageId = "75ff22b7-4ef3-4bf4-83b6-bc3cd3b561e0"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.UpdatePayeeBindingModel() // UpdatePayeeBindingModel | Request body, see details under the 'Model' tab
@@ -217,7 +217,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 7e3cf3df-faba-4a0b-a936-05445a0183ec]
+ **fMessageId** | **String**| Unique identifier | [default to 75ff22b7-4ef3-4bf4-83b6-bc3cd3b561e0]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**UpdatePayeeBindingModel**](UpdatePayeeBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -252,7 +252,7 @@ let apiInstance = new FinacApi.PayeeApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "c3d1ecaf-3128-43f1-8cad-72596ebdac8c"; // String | Unique identifier
+let fMessageId = "2069fa82-1ff8-41b3-b671-d5b1879cb0f2"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.ResendOTPPayeeBindingModel() // ResendOTPPayeeBindingModel | Request body, see details under the 'Model' tab
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to c3d1ecaf-3128-43f1-8cad-72596ebdac8c]
+ **fMessageId** | **String**| Unique identifier | [default to 2069fa82-1ff8-41b3-b671-d5b1879cb0f2]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**ResendOTPPayeeBindingModel**](ResendOTPPayeeBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 

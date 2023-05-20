@@ -22,5 +22,6 @@ Name | Type | Description | Notes
 **registrationType** | [**UserRegistrationType**](UserRegistrationType.md) |  | [optional] 
 **documentNumber** | **String** | Document number must be empty if the document details are not enabled. (if it is not applicable to your program) | [optional] 
 **documentType** | **String** | Document type must be empty if the document details are not enabled. (if it is not applicable to your program) | [optional] 
+**documentExpiryDate** | **String** | Document expiry date must be empty if the document details are not enabled. (if it is not applicable to your program) When used the following formats are accepted: \&quot;yyyy-MM-dd\&quot;, \&quot;yyyy/MM/dd\&quot;, \&quot;dd-MM-yyyy\&quot;, \&quot;dd/MM/yyyy\&quot;. | [optional] 
 **countryOfIssuance** | **String** | Country of issuance in regulation with ISO 3166-1 alpha-2. Must be empty if the document details are not enabled. (if it is not applicable to your program) | [optional] 
 **phone** | **String** | Land line of cardholder. Landline dial code can also be added by separating landline and dial code with a |. | [optional] 

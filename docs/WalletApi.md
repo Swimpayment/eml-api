@@ -27,7 +27,7 @@ let apiInstance = new FinacApi.WalletApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "0d941934-6679-452e-83b8-2c2fef72ee15"; // String | Unique identifier
+let fMessageId = "ffadfa0c-9a81-4905-a268-2a417ea87081"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.WalletSpendControlUpdateBindingModel() // WalletSpendControlUpdateBindingModel | 
@@ -48,7 +48,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 0d941934-6679-452e-83b8-2c2fef72ee15]
+ **fMessageId** | **String**| Unique identifier | [default to ffadfa0c-9a81-4905-a268-2a417ea87081]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**WalletSpendControlUpdateBindingModel**](WalletSpendControlUpdateBindingModel.md)|  | [optional] 
 
@@ -83,7 +83,7 @@ let apiInstance = new FinacApi.WalletApi();
 let id = "id_example"; // String | Cardholder id.    Expected format: ^[\\d]{12}$|^$
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "077719cc-8b35-4c2b-91ef-2a6c7ac82794"; // String | Unique identifier
+let fMessageId = "83606cca-fbe9-4f3e-b382-9429b8f61ef0"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.AccountWalletBindingModel() // AccountWalletBindingModel | Request body, see details under the 'Model' tab
@@ -104,7 +104,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id.    Expected format: ^[\\d]{12}$|^$ | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 077719cc-8b35-4c2b-91ef-2a6c7ac82794]
+ **fMessageId** | **String**| Unique identifier | [default to 83606cca-fbe9-4f3e-b382-9429b8f61ef0]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**AccountWalletBindingModel**](AccountWalletBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -138,7 +138,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.WalletApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "cc1fc6d0-f1f5-4cc3-9cf5-67c00fe89c40"; // String | Unique identifier
+let fMessageId = "5d0699b7-dc1b-48e5-9281-fa6a2a1fbf77"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'bin': "bin_example", // String | Assigned by PFS. It is the first 8 digits of the cards on your program.
@@ -160,7 +160,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to cc1fc6d0-f1f5-4cc3-9cf5-67c00fe89c40]
+ **fMessageId** | **String**| Unique identifier | [default to 5d0699b7-dc1b-48e5-9281-fa6a2a1fbf77]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **bin** | **String**| Assigned by PFS. It is the first 8 digits of the cards on your program. | [optional] 
  **distributorCode** | **String**| The unique identifier assigned by PFS, to your program | [optional] 
@@ -196,7 +196,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.WalletApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "7e4a15f2-6981-4af8-8fa9-6a6fc0bd63c2"; // String | Unique identifier
+let fMessageId = "e2444202-1d4c-41c0-8317-bea027a4c8af"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.WalletSpendControlGroupInsertBindingModel() // WalletSpendControlGroupInsertBindingModel | 
@@ -216,7 +216,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 7e4a15f2-6981-4af8-8fa9-6a6fc0bd63c2]
+ **fMessageId** | **String**| Unique identifier | [default to e2444202-1d4c-41c0-8317-bea027a4c8af]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**WalletSpendControlGroupInsertBindingModel**](WalletSpendControlGroupInsertBindingModel.md)|  | [optional] 
 

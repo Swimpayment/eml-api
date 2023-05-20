@@ -27,7 +27,7 @@ let apiInstance = new FinacApi.KBAApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "4c3994fa-ea44-443c-a99b-630a5932477c"; // String | Unique identifier
+let fMessageId = "22390735-121d-4114-9a78-19ca8afe14b4"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 
 apiInstance.apiKBAIdDelete(id, apiVersion, authorization, fMessageId, fOrigin, (error, data, response) => {
@@ -46,7 +46,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 4c3994fa-ea44-443c-a99b-630a5932477c]
+ **fMessageId** | **String**| Unique identifier | [default to 22390735-121d-4114-9a78-19ca8afe14b4]
  **fOrigin** | **String**| Origin of request | [default to swagger]
 
 ### Return type
@@ -80,7 +80,7 @@ let apiInstance = new FinacApi.KBAApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "336d1b9d-f5bd-4ec8-be77-ef66ee234800"; // String | Unique identifier
+let fMessageId = "65907e7f-8822-4f6a-b3ca-8409d6b79ef3"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.KBAInsertBindingModel() // KBAInsertBindingModel | Request body, see details under the 'Model' tab
@@ -101,7 +101,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 336d1b9d-f5bd-4ec8-be77-ef66ee234800]
+ **fMessageId** | **String**| Unique identifier | [default to 65907e7f-8822-4f6a-b3ca-8409d6b79ef3]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**KBAInsertBindingModel**](KBAInsertBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -136,7 +136,7 @@ let apiInstance = new FinacApi.KBAApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "c278b75d-a94c-42a2-af77-f057ae139cf8"; // String | Unique identifier
+let fMessageId = "5b2abbe2-2b4a-4861-b06f-f96cd3069d68"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.KBAUpdateBindingModel() // KBAUpdateBindingModel | Request body, see details under the 'Model' tab
@@ -157,7 +157,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to c278b75d-a94c-42a2-af77-f057ae139cf8]
+ **fMessageId** | **String**| Unique identifier | [default to 5b2abbe2-2b4a-4861-b06f-f96cd3069d68]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**KBAUpdateBindingModel**](KBAUpdateBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -193,7 +193,7 @@ let id = "id_example"; // String |
 let KBA = "KBA_example"; // String | 
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "70adff27-4968-4883-903c-5cf751be03a2"; // String | Unique identifier
+let fMessageId = "00198f31-0838-40ac-9cf1-55ae281400e3"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 
 apiInstance.apiKBAIdValidateKBAGet(id, KBA, apiVersion, authorization, fMessageId, fOrigin, (error, data, response) => {
@@ -213,7 +213,7 @@ Name | Type | Description  | Notes
  **KBA** | **String**|  | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 70adff27-4968-4883-903c-5cf751be03a2]
+ **fMessageId** | **String**| Unique identifier | [default to 00198f31-0838-40ac-9cf1-55ae281400e3]
  **fOrigin** | **String**| Origin of request | [default to swagger]
 
 ### Return type

@@ -35,7 +35,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.DirectDebitApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "4f12c7f6-f5e5-4efd-979a-17e395651909"; // String | Unique identifier
+let fMessageId = "187a8538-c9f5-46da-b2db-da9169d639ab"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 
 apiInstance.apiDirectDebitCollectMandateStatusGet(apiVersion, authorization, fMessageId, fOrigin, (error, data, response) => {
@@ -53,7 +53,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 4f12c7f6-f5e5-4efd-979a-17e395651909]
+ **fMessageId** | **String**| Unique identifier | [default to 187a8538-c9f5-46da-b2db-da9169d639ab]
  **fOrigin** | **String**| Origin of request | [default to swagger]
 
 ### Return type
@@ -87,7 +87,7 @@ let apiInstance = new FinacApi.DirectDebitApi();
 let directDebitId = 789; // Number | Direct debit payment id
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "8f65850d-686e-4c82-81d7-154bb157d4a5"; // String | Unique identifier
+let fMessageId = "58706fd3-418c-4133-85e1-25b74c2d4970"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'id': "id_example" // String | Cardholder Id
@@ -108,7 +108,7 @@ Name | Type | Description  | Notes
  **directDebitId** | **Number**| Direct debit payment id | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 8f65850d-686e-4c82-81d7-154bb157d4a5]
+ **fMessageId** | **String**| Unique identifier | [default to 58706fd3-418c-4133-85e1-25b74c2d4970]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **id** | **String**| Cardholder Id | [optional] 
 
@@ -143,7 +143,7 @@ let apiInstance = new FinacApi.DirectDebitApi();
 let fileType = "fileType_example"; // String | Direct debits file type.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "5960b726-693d-48df-bb87-39bdac9a37e3"; // String | Unique identifier
+let fMessageId = "c134dd2e-afc2-4d18-9ab1-e6142a64af49"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 
 apiInstance.apiDirectDebitFileTypeReasonCodesGet(fileType, apiVersion, authorization, fMessageId, fOrigin, (error, data, response) => {
@@ -162,7 +162,7 @@ Name | Type | Description  | Notes
  **fileType** | **String**| Direct debits file type. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 5960b726-693d-48df-bb87-39bdac9a37e3]
+ **fMessageId** | **String**| Unique identifier | [default to c134dd2e-afc2-4d18-9ab1-e6142a64af49]
  **fOrigin** | **String**| Origin of request | [default to swagger]
 
 ### Return type
@@ -196,7 +196,7 @@ let apiInstance = new FinacApi.DirectDebitApi();
 let id = "id_example"; // String | Cardholder Id
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "2d6f5af4-967e-452a-a7bf-4bf92edcc020"; // String | Unique identifier
+let fMessageId = "6bbf218c-abc9-443c-a3bb-f59ef6bdd18c"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'messageId': "messageId_example", // String | Message Id
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder Id | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 2d6f5af4-967e-452a-a7bf-4bf92edcc020]
+ **fMessageId** | **String**| Unique identifier | [default to 6bbf218c-abc9-443c-a3bb-f59ef6bdd18c]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **messageId** | **String**| Message Id | [optional] 
  **startDate** | **String**| Start date of cancellations, inclusive. YYYY-MM-DD | [optional] 
@@ -258,7 +258,7 @@ let apiInstance = new FinacApi.DirectDebitApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "22f25e6e-db87-4d61-937e-261da031c7ba"; // String | Unique identifier
+let fMessageId = "5328d3d8-827b-44a1-a047-eeb722d02c4c"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.DirectDebitRejectBindingModel() // DirectDebitRejectBindingModel | Request body, see details under the 'Model' tab
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 22f25e6e-db87-4d61-937e-261da031c7ba]
+ **fMessageId** | **String**| Unique identifier | [default to 5328d3d8-827b-44a1-a047-eeb722d02c4c]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**DirectDebitRejectBindingModel**](DirectDebitRejectBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -314,7 +314,7 @@ let apiInstance = new FinacApi.DirectDebitApi();
 let id = "id_example"; // String | Id of cardholder.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "37592084-f07b-4093-a26f-cc65e589180f"; // String | Unique identifier
+let fMessageId = "af1d0f15-81a0-4b2e-8f6d-b868e7d59a9c"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 
 apiInstance.apiDirectDebitIdIbanStatusGet(id, apiVersion, authorization, fMessageId, fOrigin, (error, data, response) => {
@@ -333,7 +333,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Id of cardholder. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 37592084-f07b-4093-a26f-cc65e589180f]
+ **fMessageId** | **String**| Unique identifier | [default to af1d0f15-81a0-4b2e-8f6d-b868e7d59a9c]
  **fOrigin** | **String**| Origin of request | [default to swagger]
 
 ### Return type
@@ -367,7 +367,7 @@ let apiInstance = new FinacApi.DirectDebitApi();
 let id = "id_example"; // String | Id of cardholder.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "982132e6-ade7-493d-8bee-8722682d181c"; // String | Unique identifier
+let fMessageId = "180931c3-0007-43a9-b8ca-d2db79b16cbe"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'startDate': "startDate_example", // String | Start date of mandates, inclusive. YYYY-MM-DD
@@ -391,7 +391,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Id of cardholder. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 982132e6-ade7-493d-8bee-8722682d181c]
+ **fMessageId** | **String**| Unique identifier | [default to 180931c3-0007-43a9-b8ca-d2db79b16cbe]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **startDate** | **String**| Start date of mandates, inclusive. YYYY-MM-DD | [optional] 
  **endDate** | **String**| End date of mandates, inclusive. YYYY-MM-DD | [optional] 
@@ -428,7 +428,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.DirectDebitApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "8c1a2a9f-891f-4deb-b45f-eb8a1422afdb"; // String | Unique identifier
+let fMessageId = "14af998c-77ab-4957-a4af-9a32974768a7"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'id': "id_example", // String | Cardholder id
@@ -450,7 +450,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 8c1a2a9f-891f-4deb-b45f-eb8a1422afdb]
+ **fMessageId** | **String**| Unique identifier | [default to 14af998c-77ab-4957-a4af-9a32974768a7]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **id** | **String**| Cardholder id | [optional] 
  **accountNumber** | **String**| Account number | [optional] 
@@ -487,7 +487,7 @@ let apiInstance = new FinacApi.DirectDebitApi();
 let mandateId = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // String | CardHolderId.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "cdbd1a2e-dbb3-419f-a068-6a6086da5f96"; // String | Unique identifier
+let fMessageId = "fa677d3f-21ff-4536-9d5e-99faa59bb090"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'CHID': "CHID_example" // String | Card Holder Id
@@ -508,7 +508,7 @@ Name | Type | Description  | Notes
  **mandateId** | [**String**](.md)| CardHolderId. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to cdbd1a2e-dbb3-419f-a068-6a6086da5f96]
+ **fMessageId** | **String**| Unique identifier | [default to fa677d3f-21ff-4536-9d5e-99faa59bb090]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **CHID** | **String**| Card Holder Id | [optional] 
 
@@ -543,7 +543,7 @@ let apiInstance = new FinacApi.DirectDebitApi();
 let mandateId = 789; // Number | Id of mandate.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "8bf5cc5f-d5de-4e37-b846-b2a3d9d159e8"; // String | Unique identifier
+let fMessageId = "fbef3a80-59e3-4607-a2b3-c9e94c00e48a"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'startDate': "startDate_example", // String | Start date of mandates, inclusive. YYYY-MM-DD
@@ -565,7 +565,7 @@ Name | Type | Description  | Notes
  **mandateId** | **Number**| Id of mandate. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 8bf5cc5f-d5de-4e37-b846-b2a3d9d159e8]
+ **fMessageId** | **String**| Unique identifier | [default to fbef3a80-59e3-4607-a2b3-c9e94c00e48a]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **startDate** | **String**| Start date of mandates, inclusive. YYYY-MM-DD | [optional] 
  **endDate** | **String**| End date of mandates, inclusive. YYYY-MM-DD | [optional] 
@@ -600,7 +600,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.DirectDebitApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "b888f627-c65c-426c-b67f-c09bee0bce43"; // String | Unique identifier
+let fMessageId = "438fa602-37e6-4068-a15f-f98879c8bb72"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.UpdateMandateBindingModel() // UpdateMandateBindingModel | Request body, see details under the 'Model' tab
@@ -620,7 +620,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to b888f627-c65c-426c-b67f-c09bee0bce43]
+ **fMessageId** | **String**| Unique identifier | [default to 438fa602-37e6-4068-a15f-f98879c8bb72]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**UpdateMandateBindingModel**](UpdateMandateBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -654,7 +654,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.DirectDebitApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "2b959633-d59e-49ac-adcf-ccc35585eaa0"; // String | Unique identifier
+let fMessageId = "3c4ab533-9c00-4254-8612-926e1989b1ea"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.DirectDebitOutgoingReturnBindingModel() // DirectDebitOutgoingReturnBindingModel | 
@@ -674,7 +674,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 2b959633-d59e-49ac-adcf-ccc35585eaa0]
+ **fMessageId** | **String**| Unique identifier | [default to 3c4ab533-9c00-4254-8612-926e1989b1ea]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**DirectDebitOutgoingReturnBindingModel**](DirectDebitOutgoingReturnBindingModel.md)|  | [optional] 
 
@@ -708,7 +708,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.DirectDebitApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "e7b97bfc-70c1-4946-a47f-fc04cefc2da0"; // String | Unique identifier
+let fMessageId = "6501d8fa-52b7-4845-87f2-3e077b7acc73"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'messageId': "messageId_example", // String | Transaction by message id
@@ -732,7 +732,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to e7b97bfc-70c1-4946-a47f-fc04cefc2da0]
+ **fMessageId** | **String**| Unique identifier | [default to 6501d8fa-52b7-4845-87f2-3e077b7acc73]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **messageId** | **String**| Transaction by message id | [optional] 
  **iban** | **String**| Transactions by iban | [optional] 

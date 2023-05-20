@@ -27,7 +27,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.ProgrammeApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "8e8ab77a-61f1-4794-9ae1-7c9b5dc3c159"; // String | Unique identifier
+let fMessageId = "325c8c1b-c09f-4c43-9a8c-2cb07c131638"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.CorporateDepositBindingModel() // CorporateDepositBindingModel | 
@@ -47,7 +47,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 8e8ab77a-61f1-4794-9ae1-7c9b5dc3c159]
+ **fMessageId** | **String**| Unique identifier | [default to 325c8c1b-c09f-4c43-9a8c-2cb07c131638]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**CorporateDepositBindingModel**](CorporateDepositBindingModel.md)|  | [optional] 
 
@@ -81,7 +81,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.ProgrammeApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "42a58d8c-2e28-4992-9ffd-e5c380d5e466"; // String | Unique identifier
+let fMessageId = "c8ea1c0f-0b95-4a3b-9673-096af346696c"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.CorporateDepositBindingModel() // CorporateDepositBindingModel | 
@@ -101,7 +101,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 42a58d8c-2e28-4992-9ffd-e5c380d5e466]
+ **fMessageId** | **String**| Unique identifier | [default to c8ea1c0f-0b95-4a3b-9673-096af346696c]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**CorporateDepositBindingModel**](CorporateDepositBindingModel.md)|  | [optional] 
 
@@ -136,7 +136,7 @@ let apiInstance = new FinacApi.ProgrammeApi();
 let distributorCode = "distributorCode_example"; // String | 
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "dad76ede-9089-4146-b56d-bd4e99a860c4"; // String | Unique identifier
+let fMessageId = "6755978f-0968-4a51-980d-bbb4441bdb02"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.AddCorporateCurrencyBindingModel() // AddCorporateCurrencyBindingModel | Request body, see details under the 'Model' tab
@@ -157,7 +157,7 @@ Name | Type | Description  | Notes
  **distributorCode** | **String**|  | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to dad76ede-9089-4146-b56d-bd4e99a860c4]
+ **fMessageId** | **String**| Unique identifier | [default to 6755978f-0968-4a51-980d-bbb4441bdb02]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**AddCorporateCurrencyBindingModel**](AddCorporateCurrencyBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -191,7 +191,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.ProgrammeApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "4eb26113-0bc3-4a5b-af30-15274c81d768"; // String | Unique identifier
+let fMessageId = "660c28dd-d111-4f11-912e-2e90a90478fb"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.GetSpendControlGroupsBindingModel() // GetSpendControlGroupsBindingModel | Request body, see details under the 'Model' tab
@@ -211,7 +211,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 4eb26113-0bc3-4a5b-af30-15274c81d768]
+ **fMessageId** | **String**| Unique identifier | [default to 660c28dd-d111-4f11-912e-2e90a90478fb]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**GetSpendControlGroupsBindingModel**](GetSpendControlGroupsBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -245,7 +245,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.ProgrammeApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "c10f36ef-6d98-46f5-b3a0-39db9e5e51c2"; // String | Unique identifier
+let fMessageId = "40c16f14-01a5-4227-9326-ac16cf091784"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.CreateSpendControlGroupBindingModel() // CreateSpendControlGroupBindingModel | Request body, see details under the 'Model' tab
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to c10f36ef-6d98-46f5-b3a0-39db9e5e51c2]
+ **fMessageId** | **String**| Unique identifier | [default to 40c16f14-01a5-4227-9326-ac16cf091784]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**CreateSpendControlGroupBindingModel**](CreateSpendControlGroupBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 

@@ -20,7 +20,7 @@ import {FinacApi} from 'finac_api';
 
 let apiInstance = new FinacApi.AuthApi();
 let apiVersion = "2.0"; // String | 
-let fMessageId = "6440151c-7934-42c7-98d6-cdbeafc5f4b3"; // String | Unique identifier
+let fMessageId = "60513f7a-23c5-4766-b094-78da62d23290"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.ApplicationUser() // ApplicationUser | Request body, see details under the 'Model' tab
@@ -39,7 +39,7 @@ apiInstance.apiAuthJwtPost(apiVersion, fMessageId, fOrigin, opts, (error, data, 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
- **fMessageId** | **String**| Unique identifier | [default to 6440151c-7934-42c7-98d6-cdbeafc5f4b3]
+ **fMessageId** | **String**| Unique identifier | [default to 60513f7a-23c5-4766-b094-78da62d23290]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**ApplicationUser**](ApplicationUser.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 

@@ -47,7 +47,7 @@ Name | Type | Description | Notes
 **countryOfIssuance** | **String** | Country of issuance in regulation with ISO 3166-1 alpha-2. Must be empty if the document details are not enabled. (if it is not applicable to your program) | [optional] 
 **documentNumber** | **String** | Document number must be empty if the document details are not enabled. (if it is not applicable to your program) | [optional] 
 **documentType** | **String** | Document type must be empty if the document details are not enabled. (if it is not applicable to your program) | [optional] 
-**documentExpiryDate** | **String** | Document expiry date must be empty if the document details are not enabled. (if it is not applicable to your program) When used: \&quot;yyyy-MM-dd\&quot; format. | [optional] 
+**documentExpiryDate** | **String** | Document expiry date must be empty if the document details are not enabled. (if it is not applicable to your program) When used the following formats are accepted: \&quot;yyyy-MM-dd\&quot;, \&quot;yyyy/MM/dd\&quot;, \&quot;dd-MM-yyyy\&quot;, \&quot;dd/MM/yyyy\&quot;. | [optional] 
 **gender** | **String** | Cardholder gender (M or m, F or f). | [optional] 
 **userDefined** | **{String: String}** | Open entry dictionary - For adding custom cardholder data to an account | [optional] 
 **title** | **String** | Cardholder title. | [optional] 

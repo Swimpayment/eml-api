@@ -30,7 +30,7 @@ let apiInstance = new FinacApi.KycApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "dc150688-c6cf-4295-97d6-aec9b8ab8b01"; // String | Unique identifier
+let fMessageId = "9a0a47c0-8d3d-4b88-adcb-c03fa2f66490"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'code': "code_example" // String | KYC Code
@@ -51,7 +51,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to dc150688-c6cf-4295-97d6-aec9b8ab8b01]
+ **fMessageId** | **String**| Unique identifier | [default to 9a0a47c0-8d3d-4b88-adcb-c03fa2f66490]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **code** | **String**| KYC Code | [optional] 
 
@@ -86,7 +86,7 @@ let apiInstance = new FinacApi.KycApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "367c080a-540a-4d11-927d-a332e839c8f1"; // String | Unique identifier
+let fMessageId = "d81fee94-b3c5-4d67-9bfe-29afd7cb0d81"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 
 apiInstance.apiKycIdCodePost(id, apiVersion, authorization, fMessageId, fOrigin, (error, data, response) => {
@@ -105,7 +105,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 367c080a-540a-4d11-927d-a332e839c8f1]
+ **fMessageId** | **String**| Unique identifier | [default to d81fee94-b3c5-4d67-9bfe-29afd7cb0d81]
  **fOrigin** | **String**| Origin of request | [default to swagger]
 
 ### Return type
@@ -139,7 +139,7 @@ let apiInstance = new FinacApi.KycApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "64d93f79-737b-474a-8234-7d8cf0148d83"; // String | Unique identifier
+let fMessageId = "ab091159-0936-4e28-885e-034de945347f"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.KycLinkBindingModel() // KycLinkBindingModel | Request body, see details under the 'Model' tab
@@ -160,7 +160,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 64d93f79-737b-474a-8234-7d8cf0148d83]
+ **fMessageId** | **String**| Unique identifier | [default to ab091159-0936-4e28-885e-034de945347f]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**KycLinkBindingModel**](KycLinkBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -195,7 +195,7 @@ let apiInstance = new FinacApi.KycApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "0374105e-fa55-45fa-ba2f-c01aceddd118"; // String | Unique identifier
+let fMessageId = "12729300-9be4-42db-a3da-1d0552e38a80"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'code': "code_example" // String | KYC Code.
@@ -216,7 +216,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 0374105e-fa55-45fa-ba2f-c01aceddd118]
+ **fMessageId** | **String**| Unique identifier | [default to 12729300-9be4-42db-a3da-1d0552e38a80]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **code** | **String**| KYC Code. | [optional] 
 
@@ -251,7 +251,7 @@ let apiInstance = new FinacApi.KycApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "c4b715b6-0416-4d4f-956a-e254908c8997"; // String | Unique identifier
+let fMessageId = "b93d2812-46b6-4112-8145-69d431f11311"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 
 apiInstance.apiKycIdResendCodePost(id, apiVersion, authorization, fMessageId, fOrigin, (error, data, response) => {
@@ -270,7 +270,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to c4b715b6-0416-4d4f-956a-e254908c8997]
+ **fMessageId** | **String**| Unique identifier | [default to b93d2812-46b6-4112-8145-69d431f11311]
  **fOrigin** | **String**| Origin of request | [default to swagger]
 
 ### Return type
@@ -303,7 +303,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.KycApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "49a5befd-ddcc-4918-b419-2e7ab1c70816"; // String | Unique identifier
+let fMessageId = "79c0ab36-57e1-4f13-862e-74683d1f105c"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.InitiateCheckBindingModel() // InitiateCheckBindingModel | Request body, see details under the 'Model' tab
@@ -323,7 +323,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 49a5befd-ddcc-4918-b419-2e7ab1c70816]
+ **fMessageId** | **String**| Unique identifier | [default to 79c0ab36-57e1-4f13-862e-74683d1f105c]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**InitiateCheckBindingModel**](InitiateCheckBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -357,7 +357,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.KycApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "a0216aca-b837-404e-b7c6-23b771d8ecce"; // String | Unique identifier
+let fMessageId = "eb39d7f0-3d24-4e42-b818-f336d4a05be4"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.KYCUploadDocumentsBindingModel() // KYCUploadDocumentsBindingModel | Request body, see details under the 'Model' tab
@@ -377,7 +377,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to a0216aca-b837-404e-b7c6-23b771d8ecce]
+ **fMessageId** | **String**| Unique identifier | [default to eb39d7f0-3d24-4e42-b818-f336d4a05be4]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**KYCUploadDocumentsBindingModel**](KYCUploadDocumentsBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 

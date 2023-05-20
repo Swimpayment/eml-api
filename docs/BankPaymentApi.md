@@ -34,7 +34,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.BankPaymentApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "bda29d49-2742-46c3-ab6d-10193676ab56"; // String | Unique identifier
+let fMessageId = "3737b61b-f5c5-4054-b762-c812619a5b87"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'paymentDate': "paymentDate_example", // String | Planed payment date and time (yyyy-MM-ddThh:mm:ss). The API is aware of business hours, so the time (hour, minute) part of the value is also imporatant.    For example in case of a GBP payment with FasterPayment 2020-08-14T10:00:00 (Friday 10AM) will fullfiled on the same day,  but a payment made at 2020-08-14T19:00:00 (Friday 7PM) will be fulfilled only on 2020-08-17 Monday.
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to bda29d49-2742-46c3-ab6d-10193676ab56]
+ **fMessageId** | **String**| Unique identifier | [default to 3737b61b-f5c5-4054-b762-c812619a5b87]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **paymentDate** | **String**| Planed payment date and time (yyyy-MM-ddThh:mm:ss). The API is aware of business hours, so the time (hour, minute) part of the value is also imporatant.    For example in case of a GBP payment with FasterPayment 2020-08-14T10:00:00 (Friday 10AM) will fullfiled on the same day,  but a payment made at 2020-08-14T19:00:00 (Friday 7PM) will be fulfilled only on 2020-08-17 Monday. | [optional] 
  **currency** | **String**| Payment Currency ISO-4217 3 character code | [optional] 
@@ -96,7 +96,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.BankPaymentApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "15bf91ad-b32e-4ad1-a8fe-9f8733e4f25b"; // String | Unique identifier
+let fMessageId = "cc96d335-484f-4025-b375-e07e8cf9e51f"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'paymentId': "paymentId_example", // String | (GUID). This can be retrieved from any of Bank Payment Statement APIs, look for the transactionId.  If this is supplied, don't also provide TerminalId.
@@ -117,7 +117,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 15bf91ad-b32e-4ad1-a8fe-9f8733e4f25b]
+ **fMessageId** | **String**| Unique identifier | [default to cc96d335-484f-4025-b375-e07e8cf9e51f]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **paymentId** | **String**| (GUID). This can be retrieved from any of Bank Payment Statement APIs, look for the transactionId.  If this is supplied, don&#x27;t also provide TerminalId. | [optional] 
  **terminalId** | **String**| (Format: CC 21234). This can be retrieved from /api/Account/{Id}/Transactions (TransactionHistory), look for terminalId.  If this is supplied, don&#x27;t also provide PaymentId. | [optional] 
@@ -153,7 +153,7 @@ let apiInstance = new FinacApi.BankPaymentApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "d9e850f9-892c-4d00-8ff7-cea964db887d"; // String | Unique identifier
+let fMessageId = "faa6bf6b-6c1d-4205-83af-97860f2925f7"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.BankPaymentCancelRecurringBindingModel() // BankPaymentCancelRecurringBindingModel | 
@@ -174,7 +174,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to d9e850f9-892c-4d00-8ff7-cea964db887d]
+ **fMessageId** | **String**| Unique identifier | [default to faa6bf6b-6c1d-4205-83af-97860f2925f7]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**BankPaymentCancelRecurringBindingModel**](BankPaymentCancelRecurringBindingModel.md)|  | [optional] 
 
@@ -209,7 +209,7 @@ let apiInstance = new FinacApi.BankPaymentApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "c2c992b7-76bd-4e46-856c-a33e58ed7e2a"; // String | Unique identifier
+let fMessageId = "f8e9ef31-6563-4ac3-80b0-c7bfff54e400"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.BankPaymentBindingModelV2() // BankPaymentBindingModelV2 | Request body, see details under the 'Model' tab
@@ -230,7 +230,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to c2c992b7-76bd-4e46-856c-a33e58ed7e2a]
+ **fMessageId** | **String**| Unique identifier | [default to f8e9ef31-6563-4ac3-80b0-c7bfff54e400]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**BankPaymentBindingModelV2**](BankPaymentBindingModelV2.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -265,7 +265,7 @@ let apiInstance = new FinacApi.BankPaymentApi();
 let id = "id_example"; // String | Cardholder Id
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "ad0563a7-395e-47c3-a78f-fae0cf051b79"; // String | Unique identifier
+let fMessageId = "040b155b-d176-4b09-9f58-a3d29f5d56a8"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 
 apiInstance.apiBankPaymentIdRecurringPaymentsGet(id, apiVersion, authorization, fMessageId, fOrigin, (error, data, response) => {
@@ -284,7 +284,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder Id | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to ad0563a7-395e-47c3-a78f-fae0cf051b79]
+ **fMessageId** | **String**| Unique identifier | [default to 040b155b-d176-4b09-9f58-a3d29f5d56a8]
  **fOrigin** | **String**| Origin of request | [default to swagger]
 
 ### Return type
@@ -318,7 +318,7 @@ let apiInstance = new FinacApi.BankPaymentApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "8f649cee-9fea-4b5e-acc7-85a3eda4573d"; // String | Unique identifier
+let fMessageId = "dff345d8-a8c6-43e6-9163-4b398d9fde98"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.BankPaymentRecurringBindingModelV2() // BankPaymentRecurringBindingModelV2 | Request body, see details under the 'Model' tab
@@ -339,7 +339,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 8f649cee-9fea-4b5e-acc7-85a3eda4573d]
+ **fMessageId** | **String**| Unique identifier | [default to dff345d8-a8c6-43e6-9163-4b398d9fde98]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**BankPaymentRecurringBindingModelV2**](BankPaymentRecurringBindingModelV2.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -374,7 +374,7 @@ let apiInstance = new FinacApi.BankPaymentApi();
 let id = "id_example"; // String | Cardholder id
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "30b4a935-bba1-4a54-855c-58554debd916"; // String | Unique identifier
+let fMessageId = "185ef594-8c1d-4a1b-a15e-866b5b44cf82"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'statementItemId': "statementItemId_example", // String | Unique Reference Code for tranaction
@@ -397,7 +397,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 30b4a935-bba1-4a54-855c-58554debd916]
+ **fMessageId** | **String**| Unique identifier | [default to 185ef594-8c1d-4a1b-a15e-866b5b44cf82]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **statementItemId** | **String**| Unique Reference Code for tranaction | [optional] 
  **inwardOutward** | [**BankPaymentDirection**](.md)| The direction of transactions returned:         Inward &#x3D; 0,       Outward &#x3D; 1    If not specified default is 0 - Inward | [optional] 
@@ -434,7 +434,7 @@ let apiInstance = new FinacApi.BankPaymentApi();
 let id = "id_example"; // String | Cardholder Id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "542dbc5d-f94f-4a60-bc7c-4269c2d21933"; // String | Unique identifier
+let fMessageId = "f71cd618-2177-418a-9fd1-13e7b167f710"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'startDate': "startDate_example", // String | Start date of transactions, field is required, YYYY-MM-DD
@@ -458,7 +458,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder Id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 542dbc5d-f94f-4a60-bc7c-4269c2d21933]
+ **fMessageId** | **String**| Unique identifier | [default to f71cd618-2177-418a-9fd1-13e7b167f710]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **startDate** | **String**| Start date of transactions, field is required, YYYY-MM-DD | [optional] 
  **endDate** | **String**| End date of transactions, field is required, YYYY-MM-DD | [optional] 
@@ -496,7 +496,7 @@ let apiInstance = new FinacApi.BankPaymentApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "de33759f-f490-49d4-b5fc-310e30e0dba5"; // String | Unique identifier
+let fMessageId = "5de9e4f6-855e-4994-8037-48c09aa7d458"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.BankPaymentUpdateBindingModelV2() // BankPaymentUpdateBindingModelV2 | Request body, see details under the 'Model' tab
@@ -517,7 +517,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to de33759f-f490-49d4-b5fc-310e30e0dba5]
+ **fMessageId** | **String**| Unique identifier | [default to 5de9e4f6-855e-4994-8037-48c09aa7d458]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**BankPaymentUpdateBindingModelV2**](BankPaymentUpdateBindingModelV2.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
@@ -551,7 +551,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.BankPaymentApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "aa54f11e-32d5-43af-998a-5a6ca08dd3c1"; // String | Unique identifier
+let fMessageId = "b021564f-24f5-472d-9cad-f0b96a193920"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'currency': "currency_example", // String | Payment Currency ISO-4217 3 character currency code
@@ -573,7 +573,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to aa54f11e-32d5-43af-998a-5a6ca08dd3c1]
+ **fMessageId** | **String**| Unique identifier | [default to b021564f-24f5-472d-9cad-f0b96a193920]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **currency** | **String**| Payment Currency ISO-4217 3 character currency code | [optional] 
  **receivingCountryCode** | **String**| Country code (2 letter) of the receiving country | [optional] 
@@ -609,7 +609,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.BankPaymentApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "ab3a470a-a59a-48c8-97c3-6d483e223042"; // String | Unique identifier
+let fMessageId = "d1954ee0-7fc5-44af-9fdf-ac7569e19a6f"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'bic': "bic_example" // String | Bic to be validated.
@@ -629,7 +629,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to ab3a470a-a59a-48c8-97c3-6d483e223042]
+ **fMessageId** | **String**| Unique identifier | [default to d1954ee0-7fc5-44af-9fdf-ac7569e19a6f]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **bic** | **String**| Bic to be validated. | [optional] 
 
@@ -663,7 +663,7 @@ let defaultClient = FinacApi.ApiClient.instance;
 let apiInstance = new FinacApi.BankPaymentApi();
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "a0ffe3b3-2711-4f6e-885c-6a98517c1372"; // String | Unique identifier
+let fMessageId = "b7395ed7-d22d-4e0e-abc3-65c49c833b9c"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'bic': "bic_example" // String | Bic to be validated.
@@ -683,7 +683,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to a0ffe3b3-2711-4f6e-885c-6a98517c1372]
+ **fMessageId** | **String**| Unique identifier | [default to b7395ed7-d22d-4e0e-abc3-65c49c833b9c]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **bic** | **String**| Bic to be validated. | [optional] 
 

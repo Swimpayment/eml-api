@@ -43,7 +43,7 @@ Name | Type | Description | Notes
 **secondaryCounty** | **String** |  | [optional] 
 **documentType** | **String** | Document type must be empty if document details are not enabled. (if not applicable to your program) | [optional] 
 **documentNumber** | **String** | Document number must be empty if document details are not enabled. (if not applicable to your program) | [optional] 
-**documentExpiryDate** | **String** | Document number must be empty if document details are not enabled. (if not applicable to your program) \&quot;yyyy-MM-dd\&quot; format. | [optional] 
+**documentExpiryDate** | **String** | Document number must be empty if document details are not enabled. (if not applicable to your program). When used the following formats are accepted: \&quot;yyyy-MM-dd\&quot;, \&quot;yyyy/MM/dd\&quot;, \&quot;dd-MM-yyyy\&quot;, \&quot;dd/MM/yyyy\&quot;. | [optional] 
 **nationality** | **String** | Nationality of cardholder. | [optional] 
 **countryOfIssuance** | **String** | Country of issuance must be empty if document details are not enabled. (if not applicable to your program) In regulation with ISO 3166-1 alpha-2. | [optional] 
 **gender** | **String** | Gender of cardholder (M or m, F or f). | [optional] 

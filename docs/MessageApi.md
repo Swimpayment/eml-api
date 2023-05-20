@@ -24,7 +24,7 @@ let apiInstance = new FinacApi.MessageApi();
 let messageId = "messageId_example"; // String | 
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "f3f1e517-4870-4f22-a022-c675a1eaf7c8"; // String | Unique identifier
+let fMessageId = "78c86ef7-417a-46e4-8c45-714f7345b2ae"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 
 apiInstance.apiMessageLookupMessageIdGet(messageId, apiVersion, authorization, fMessageId, fOrigin, (error, data, response) => {
@@ -43,7 +43,7 @@ Name | Type | Description  | Notes
  **messageId** | **String**|  | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to f3f1e517-4870-4f22-a022-c675a1eaf7c8]
+ **fMessageId** | **String**| Unique identifier | [default to 78c86ef7-417a-46e4-8c45-714f7345b2ae]
  **fOrigin** | **String**| Origin of request | [default to swagger]
 
 ### Return type

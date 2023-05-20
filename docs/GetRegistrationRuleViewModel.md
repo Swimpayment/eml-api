@@ -13,6 +13,7 @@ Name | Type | Description | Notes
 **email** | **String** |  | [optional] 
 **documentNumber** | **String** |  | [optional] 
 **documentType** | **String** |  | [optional] 
+**documentExpiryDate** | **String** |  | [optional] 
 **countryOfIssuance** | **String** |  | [optional] 
 **address1** | **String** |  | [optional] 
 **address2** | **String** |  | [optional] 
@@ -32,3 +33,4 @@ Name | Type | Description | Notes
 **createdDateTime** | **String** |  | [optional] 
 **deletedDateTime** | **String** |  | [optional] 
 **deletedByCSRId** | **String** |  | [optional] 
+**deletedReason** | **String** |  | [optional] 

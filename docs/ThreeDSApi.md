@@ -26,7 +26,7 @@ let apiInstance = new FinacApi.ThreeDSApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "31f60241-c8ca-48b0-9e5f-e9e41fc23661"; // String | Unique identifier
+let fMessageId = "77a5b523-d0d6-4c0a-93df-1d5f42efe00f"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 
 apiInstance.apiThreeDSIdGet(id, apiVersion, authorization, fMessageId, fOrigin, (error, data, response) => {
@@ -45,7 +45,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 31f60241-c8ca-48b0-9e5f-e9e41fc23661]
+ **fMessageId** | **String**| Unique identifier | [default to 77a5b523-d0d6-4c0a-93df-1d5f42efe00f]
  **fOrigin** | **String**| Origin of request | [default to swagger]
 
 ### Return type
@@ -79,7 +79,7 @@ let apiInstance = new FinacApi.ThreeDSApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "f216da54-76fc-4da4-ae32-8be5525a4c50"; // String | Unique identifier
+let fMessageId = "46d04b7c-7677-4f9f-8e05-da82d3fbe7cb"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.UpdateSecurityDetailsThreeDSBindingModel() // UpdateSecurityDetailsThreeDSBindingModel | 
@@ -100,7 +100,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to f216da54-76fc-4da4-ae32-8be5525a4c50]
+ **fMessageId** | **String**| Unique identifier | [default to 46d04b7c-7677-4f9f-8e05-da82d3fbe7cb]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**UpdateSecurityDetailsThreeDSBindingModel**](UpdateSecurityDetailsThreeDSBindingModel.md)|  | [optional] 
 
@@ -135,7 +135,7 @@ let apiInstance = new FinacApi.ThreeDSApi();
 let id = "id_example"; // String | Cardholder id.
 let apiVersion = "2.0"; // String | 
 let authorization = "Bearer [jwttoken]"; // String | Access token
-let fMessageId = "7cff3228-cf3b-434c-959d-20d7b789a4ff"; // String | Unique identifier
+let fMessageId = "f9fba561-797c-4f60-a8fb-3f399504f5c7"; // String | Unique identifier
 let fOrigin = "swagger"; // String | Origin of request
 let opts = { 
   'body': new FinacApi.ValidateSecurityAnswerThreeDSBindingModel() // ValidateSecurityAnswerThreeDSBindingModel | Request body, see details under the 'Model' tab
@@ -156,7 +156,7 @@ Name | Type | Description  | Notes
  **id** | **String**| Cardholder id. | 
  **apiVersion** | **String**|  | [default to 2.0]
  **authorization** | **String**| Access token | [default to Bearer [jwttoken]]
- **fMessageId** | **String**| Unique identifier | [default to 7cff3228-cf3b-434c-959d-20d7b789a4ff]
+ **fMessageId** | **String**| Unique identifier | [default to f9fba561-797c-4f60-a8fb-3f399504f5c7]
  **fOrigin** | **String**| Origin of request | [default to swagger]
  **body** | [**ValidateSecurityAnswerThreeDSBindingModel**](ValidateSecurityAnswerThreeDSBindingModel.md)| Request body, see details under the &#x27;Model&#x27; tab | [optional] 
 
