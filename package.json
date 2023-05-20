@@ -1,6 +1,6 @@
 {
   "name": "finac_api",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "bVersion_Notes__br_All_amounts_fields_in_requests_and_responses_have_been_changed_from_decimal_to_int64_cents__This_means_that_10_00_in_version_1_is_1000_in_version_2_br_ThreeDS_endpoints_have_been_added_to_this_version__These_will_replace_the_KBA_endpoints_from_version_1_br_AccountId_endpoint_has_changed_HTTP_verb_from_GET_to_POST_furthermore_additional_cardholder_details_need_to_be_provided_as_part_of_the_HTTP_body_b",
   "license": "Unlicense",
   "main": "dist/index.js",
