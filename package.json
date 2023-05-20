@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha --require @babel/register --recursive",
-    "build":"npx babel --env-name commonjsNode src --source-root src --out-dir 'dist' --copy-files"
+    "build":"npx babel --env-name commonjsNode src --source-root src --out-dir dist --copy-files"
   },
   "browser": {
     "fs": false

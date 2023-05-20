@@ -963,6 +963,24 @@ Object.defineProperty(exports, "DeleteAccountWalletViewModelValidResponsePackage
     return _DeleteAccountWalletViewModelValidResponsePackage.DeleteAccountWalletViewModelValidResponsePackage;
   }
 });
+Object.defineProperty(exports, "DeleteBlacklistBlockBindingModel", {
+  enumerable: true,
+  get: function get() {
+    return _DeleteBlacklistBlockBindingModel.DeleteBlacklistBlockBindingModel;
+  }
+});
+Object.defineProperty(exports, "DeleteBlacklistBlockViewModel", {
+  enumerable: true,
+  get: function get() {
+    return _DeleteBlacklistBlockViewModel.DeleteBlacklistBlockViewModel;
+  }
+});
+Object.defineProperty(exports, "DeleteBlacklistBlockViewModelValidResponsePackage", {
+  enumerable: true,
+  get: function get() {
+    return _DeleteBlacklistBlockViewModelValidResponsePackage.DeleteBlacklistBlockViewModelValidResponsePackage;
+  }
+});
 Object.defineProperty(exports, "DeletePayeeBindingModel", {
   enumerable: true,
   get: function get() {
@@ -981,6 +999,12 @@ Object.defineProperty(exports, "DeletePayeeViewModelValidResponsePackage", {
     return _DeletePayeeViewModelValidResponsePackage.DeletePayeeViewModelValidResponsePackage;
   }
 });
+Object.defineProperty(exports, "DeleteRegistrationRuleBindingModel", {
+  enumerable: true,
+  get: function get() {
+    return _DeleteRegistrationRuleBindingModel.DeleteRegistrationRuleBindingModel;
+  }
+});
 Object.defineProperty(exports, "DeleteRegistrationRuleViewModel", {
   enumerable: true,
   get: function get() {
@@ -991,6 +1015,24 @@ Object.defineProperty(exports, "DeleteRegistrationRuleViewModelValidResponsePack
   enumerable: true,
   get: function get() {
     return _DeleteRegistrationRuleViewModelValidResponsePackage.DeleteRegistrationRuleViewModelValidResponsePackage;
+  }
+});
+Object.defineProperty(exports, "DepositBindingModelV2", {
+  enumerable: true,
+  get: function get() {
+    return _DepositBindingModelV.DepositBindingModelV2;
+  }
+});
+Object.defineProperty(exports, "DepositViewModelV2", {
+  enumerable: true,
+  get: function get() {
+    return _DepositViewModelV.DepositViewModelV2;
+  }
+});
+Object.defineProperty(exports, "DepositViewModelV2ValidResponsePackage", {
+  enumerable: true,
+  get: function get() {
+    return _DepositViewModelV2ValidResponsePackage.DepositViewModelV2ValidResponsePackage;
   }
 });
 Object.defineProperty(exports, "Device", {
@@ -1411,6 +1453,30 @@ Object.defineProperty(exports, "GetPayeeViewModelValidResponsePackage", {
   enumerable: true,
   get: function get() {
     return _GetPayeeViewModelValidResponsePackage.GetPayeeViewModelValidResponsePackage;
+  }
+});
+Object.defineProperty(exports, "GetRegistrationRuleAuditPagingViewModel", {
+  enumerable: true,
+  get: function get() {
+    return _GetRegistrationRuleAuditPagingViewModel.GetRegistrationRuleAuditPagingViewModel;
+  }
+});
+Object.defineProperty(exports, "GetRegistrationRuleAuditVM", {
+  enumerable: true,
+  get: function get() {
+    return _GetRegistrationRuleAuditVM.GetRegistrationRuleAuditVM;
+  }
+});
+Object.defineProperty(exports, "GetRegistrationRuleAuditViewModel", {
+  enumerable: true,
+  get: function get() {
+    return _GetRegistrationRuleAuditViewModel.GetRegistrationRuleAuditViewModel;
+  }
+});
+Object.defineProperty(exports, "GetRegistrationRuleAuditViewModelValidResponsePackage", {
+  enumerable: true,
+  get: function get() {
+    return _GetRegistrationRuleAuditViewModelValidResponsePackage.GetRegistrationRuleAuditViewModelValidResponsePackage;
   }
 });
 Object.defineProperty(exports, "GetRegistrationRuleViewModel", {
@@ -2287,6 +2353,24 @@ Object.defineProperty(exports, "RegisterViewModelValidResponsePackage", {
   enumerable: true,
   get: function get() {
     return _RegisterViewModelValidResponsePackage.RegisterViewModelValidResponsePackage;
+  }
+});
+Object.defineProperty(exports, "RegisteredDetailsCountBindingModel", {
+  enumerable: true,
+  get: function get() {
+    return _RegisteredDetailsCountBindingModel.RegisteredDetailsCountBindingModel;
+  }
+});
+Object.defineProperty(exports, "RegisteredDetailsCountViewModel", {
+  enumerable: true,
+  get: function get() {
+    return _RegisteredDetailsCountViewModel.RegisteredDetailsCountViewModel;
+  }
+});
+Object.defineProperty(exports, "RegisteredDetailsCountViewModelValidResponsePackage", {
+  enumerable: true,
+  get: function get() {
+    return _RegisteredDetailsCountViewModelValidResponsePackage.RegisteredDetailsCountViewModelValidResponsePackage;
   }
 });
 Object.defineProperty(exports, "RegistrationRuleApi", {
@@ -3178,11 +3262,18 @@ var _DDTransactionV2VM = require("./model/DDTransactionV2VM");
 var _DeleteAccountWalletBindingModel = require("./model/DeleteAccountWalletBindingModel");
 var _DeleteAccountWalletViewModel = require("./model/DeleteAccountWalletViewModel");
 var _DeleteAccountWalletViewModelValidResponsePackage = require("./model/DeleteAccountWalletViewModelValidResponsePackage");
+var _DeleteBlacklistBlockBindingModel = require("./model/DeleteBlacklistBlockBindingModel");
+var _DeleteBlacklistBlockViewModel = require("./model/DeleteBlacklistBlockViewModel");
+var _DeleteBlacklistBlockViewModelValidResponsePackage = require("./model/DeleteBlacklistBlockViewModelValidResponsePackage");
 var _DeletePayeeBindingModel = require("./model/DeletePayeeBindingModel");
 var _DeletePayeeViewModel = require("./model/DeletePayeeViewModel");
 var _DeletePayeeViewModelValidResponsePackage = require("./model/DeletePayeeViewModelValidResponsePackage");
+var _DeleteRegistrationRuleBindingModel = require("./model/DeleteRegistrationRuleBindingModel");
 var _DeleteRegistrationRuleViewModel = require("./model/DeleteRegistrationRuleViewModel");
 var _DeleteRegistrationRuleViewModelValidResponsePackage = require("./model/DeleteRegistrationRuleViewModelValidResponsePackage");
+var _DepositBindingModelV = require("./model/DepositBindingModelV2");
+var _DepositViewModelV = require("./model/DepositViewModelV2");
+var _DepositViewModelV2ValidResponsePackage = require("./model/DepositViewModelV2ValidResponsePackage");
 var _Device = require("./model/Device");
 var _DirectDebitCancellationTransactionModelV = require("./model/DirectDebitCancellationTransactionModelV2");
 var _DirectDebitCancellationViewModelV = require("./model/DirectDebitCancellationViewModelV2");
@@ -3252,6 +3343,10 @@ var _GetNumberOfDocumentsViewModelValidResponsePackage = require("./model/GetNum
 var _GetPayeeBindingModel = require("./model/GetPayeeBindingModel");
 var _GetPayeeViewModel = require("./model/GetPayeeViewModel");
 var _GetPayeeViewModelValidResponsePackage = require("./model/GetPayeeViewModelValidResponsePackage");
+var _GetRegistrationRuleAuditPagingViewModel = require("./model/GetRegistrationRuleAuditPagingViewModel");
+var _GetRegistrationRuleAuditVM = require("./model/GetRegistrationRuleAuditVM");
+var _GetRegistrationRuleAuditViewModel = require("./model/GetRegistrationRuleAuditViewModel");
+var _GetRegistrationRuleAuditViewModelValidResponsePackage = require("./model/GetRegistrationRuleAuditViewModelValidResponsePackage");
 var _GetRegistrationRuleViewModel = require("./model/GetRegistrationRuleViewModel");
 var _GetRegistrationRulesPagingViewModel = require("./model/GetRegistrationRulesPagingViewModel");
 var _GetRegistrationRulesViewModel = require("./model/GetRegistrationRulesViewModel");
@@ -3392,6 +3487,9 @@ var _RegionalUsageViewModel = require("./model/RegionalUsageViewModel");
 var _RegisterClientBindingModel = require("./model/RegisterClientBindingModel");
 var _RegisterViewModel = require("./model/RegisterViewModel");
 var _RegisterViewModelValidResponsePackage = require("./model/RegisterViewModelValidResponsePackage");
+var _RegisteredDetailsCountBindingModel = require("./model/RegisteredDetailsCountBindingModel");
+var _RegisteredDetailsCountViewModel = require("./model/RegisteredDetailsCountViewModel");
+var _RegisteredDetailsCountViewModelValidResponsePackage = require("./model/RegisteredDetailsCountViewModelValidResponsePackage");
 var _ReissueBindingModel = require("./model/ReissueBindingModel");
 var _ReissueV2ViewModel = require("./model/ReissueV2ViewModel");
 var _ReissueV2ViewModelValidResponsePackage = require("./model/ReissueV2ViewModelValidResponsePackage");
